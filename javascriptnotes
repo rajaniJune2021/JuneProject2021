@@ -1,0 +1,9 @@
+JavaScriptExecutor jsExecutor = (JavaScriptExecutor) driver;
+jsExecutor.executeScript("arguments[0].click;",webElement);
+Javascript:
+
+This syntaxt by Selenium IDE
+document.getElementsById("idvalue");
+document.getElementsByName("nameValue")[0]; if multiple values matching with this add index starting from 0
+$x("//div[@id='contact-link']")  - this is format of syntax search on browser and console.
+

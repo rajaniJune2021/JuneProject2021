@@ -1,0 +1,6 @@
+{
+	"firstName": "rajani",
+	"lastName": "Gunda",
+	"phoneNumber": "234567890",
+	"gmail": "abc@test.com"
+}

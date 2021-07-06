@@ -1,0 +1,14 @@
+Wait in selenium:
+1. Based on condition this selenium waits can apply on elemeents such (ExpectedCondition BasedonVisibilityOfText, visibilityOfelement, untilElementfound) etc.
+2. as soon as above expected condition executed it will move next line of code or next course of action on test steps.
+3. efficiently handles the application elements even though it loads late after the DOM and effectily executes the script without script failures.
+4. Thread.sleep generic method can be replaced with element specific wait conditions.
+
+Types of waits in selenium:
+1. Implicit wait
+This one time wait when DOM loads. every time page loads this implicit wait called.
+2.Explicit wait
+Conditions can be added to particular element to be selected or visibility- This is specific to particular element
+3.Fluent wait.
+element found but actions(click, selection, enabling) not performed on particular element can give specified time to wait to keep trying the same action on the element.
+Wait wait = new FluentWait(driver).withTimeout(time).pollingEvery(time).ignoring(NoSuchElementException.class)

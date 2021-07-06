@@ -1,0 +1,33 @@
+1. Retry analyzer
+2. Logger class
+3. data provider
+4. reading data from excel file
+5. reading data from json file
+6. Keyboard actions
+7. Jenkin's
+8. Allure Reports
+9. Oops concepts implemntaing in the framework
+10. listeners in testng.
+
+
+----------------------------------------------
+
+DataProvider:
+DataProvider:
+1.DataProvider is stores the test data in columns and rows format.
+2return type of dataProvider method is two dimensional array with object since object store sthe any type of data.
+
+syntax:
+
+@DataProvider
+public Object[][] getTestData(){
+
+return Object[row][col];
+
+}
+Depends on the size of the two dimenational arrray test method will execute same number of times until complete test data iterated from the two diemntional array.
+
+------------------
+
+Actions in selenium:
+keyboard actions and mouse over actions.
