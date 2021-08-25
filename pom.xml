@@ -133,10 +133,9 @@
                 <version>2.20</version>
 
                 <configuration>
-                    <!--                    <suiteXmlFiles>-->
-                    <!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
-                    <!--                        <suiteXmlFile>registration-alltestcase.xml</suiteXmlFile>-->
-                    <!--                    </suiteXmlFiles>-->
+                                      <suiteXmlFiles>
+                                           <suiteXmlFile>automationpractice-alltestcases.xml</suiteXmlFile>
+                                      </suiteXmlFiles>
 
                 </configuration>
             </plugin>
